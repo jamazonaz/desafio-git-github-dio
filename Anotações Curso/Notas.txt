@@ -1,0 +1,21 @@
+Utilizando Git Bash
+
+Configurando Email e Usuario dos Comits
+   git config --global user.email "(seu email do github)"
+   git config --global user.name "(seu nick no github)
+
+Comando Básicos:
+   git init   - Inicializa o Projeto na Pasta Local
+   git add    - Adciona os Arquivos para Satged
+   git commit - Pode ser em um arquivo ou em tudo (git commit . ou git commit *)
+
+Para Clonar um Repositorio:
+-Copiar o link do repositorio e executar na sua pasta local:
+   git clone e o (link do repositorio)
+
+Adicionando Repositorio Local ao Ambiente Remoto
+-Após o repositorio criado no GitHub:
+   git remote add origin (link do repositorio)
+   git push origin (pode ser main ou master)
+
+Resolvendo Problemas
